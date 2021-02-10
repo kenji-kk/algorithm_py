@@ -20,7 +20,7 @@ def sort(nums):
     return box
 
 
-nums = [random.randint(-1000, 1000) for _ in
+nums = [random.randint(0, 1000) for _ in
 range(1000)]
 result = sort(nums)
 print(result)
