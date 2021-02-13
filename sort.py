@@ -1,6 +1,5 @@
 import random
 
-
 def sort(nums):
     box = [0]
     for i in nums:
@@ -18,7 +17,6 @@ def sort(nums):
                     break
     box.remove(0)
     return box
-
 
 nums = [random.randint(0, 1000) for _ in
 range(1000)]
