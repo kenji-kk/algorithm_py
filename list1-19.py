@@ -5,3 +5,8 @@ for i in range(1,15):
     continue
   print(i, end='')
 print()
+
+#良い例
+for i in list(range(1, 15)) + list(range(9, 13)):
+  print(i, end=' ')
+print()
