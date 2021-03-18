@@ -7,3 +7,8 @@ for i in range(len(x)):
 x = ["aaa","bbb","ccc"]
 for i, name in enumerate(x):
   print(f'x[{i}] = {name}')
+
+#リストの全要素をenumerate関数で走査（１からカウント）
+x = ["aaa","bbb","ccc"]
+for i, name in enumerate(x, i):
+  print(f'{i}番目 = {name}')
