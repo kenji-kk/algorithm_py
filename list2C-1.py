@@ -12,3 +12,8 @@ for i, name in enumerate(x):
 x = ["aaa","bbb","ccc"]
 for i, name in enumerate(x, i):
   print(f'{i}番目 = {name}')
+
+#リストの全要素を走査（インデックスを使わない）
+x = ["aaa","bbb","ccc"]
+for i in x:
+  print(i)
