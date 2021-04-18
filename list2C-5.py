@@ -8,3 +8,7 @@ def sum_1ton(n):
   return s
 x = int(input('xの値：'))
 print(f'1から{x}までの総和は{sum_1ton(x)}です。')
+
+if __name__ = '__main__' :
+  sum_1ton(100)
+  
